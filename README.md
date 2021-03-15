@@ -2,7 +2,7 @@
 [![Node.js version][nodejs-badge]][nodejs]
 [![MIT][license-badge]][LICENSE]
 
-# ESC/POS Printer Library
+# Vuex Persistedstate Migrate
 
 Library to migrate vuex state using [vuex-persistedstate][vuex-persistedstate].
 
