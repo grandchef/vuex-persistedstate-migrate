@@ -1,9 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
 name: vuex-persistedstate-migrate
-on:
-  release:
-    types: [created]
+on: push
 
 jobs:
   style-check:
