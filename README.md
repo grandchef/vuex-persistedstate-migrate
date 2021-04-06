@@ -5,6 +5,7 @@
 # Vuex Persistedstate Migrate
 
 Library to migrate vuex state using [vuex-persistedstate][vuex-persistedstate].
+See on NPM [link][npm-link]
 
 ## Install
 
@@ -74,3 +75,4 @@ Licensed under the MIT. See the [LICENSE](https://github.com/grandchef/vuex-pers
 [typescript-42]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-2.html
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license]: https://github.com/grandchef/vuex-persistedstate-migrate/blob/master/LICENSE
+[npm-link]: https://www.npmjs.com/package/vuex-persistedstate-migrate
