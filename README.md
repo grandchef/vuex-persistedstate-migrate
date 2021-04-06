@@ -5,7 +5,7 @@
 # Vuex Persistedstate Migrate
 
 Library to migrate vuex state using [vuex-persistedstate][vuex-persistedstate].
-See on NPM [link][npm-link]
+See on [npm][npm-link]
 
 ## Install
 
