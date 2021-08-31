@@ -33,15 +33,16 @@ const createMigrate = (migrations: IMigration[], versionPath: string) => (
   storage: any,
 ) => {
   const value = storage.getItem(key);
+  if (typeof value === undefined) {
+    return undefined;
+  }
   try {
-    if (typeof value === undefined) {
-      return undefined;
-    }
     const state = JSON.parse(value);
     return migrate(state, versionPath, migrations);
-  } catch (err) {}
-
-  return undefined;
+  } catch (err) {
+    console.log(err);
+    return JSON.parse(value);
+  }
 };
 
 export { IMigration, createMigrate };
